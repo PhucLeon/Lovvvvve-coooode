@@ -1,0 +1,84 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .container {
+        overflow-x: hidden;
+    }
+    .header-name {
+        font-size: 3.4rem;
+    }
+    .content {
+        padding: 0;
+    }
+    .music-control {
+        opacity: .1;
+    }
+    .btn--yes {
+        position: absolute;
+        top: 198px;
+        left: 60px;
+    }
+    .btn--no {
+        position: absolute;
+        top: 198px;
+        right: 70px;
+    }
+    .footer {
+        overflow: hidden;
+        /* height: 19rem; */
+        padding: 10px 0;
+    }
+}
+
+/* Galaxy S5 */
+@media (max-width: 667px) {
+    .header {
+        height: 250px;
+    }
+    .header-name {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .header-description {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .content {
+        padding: 0;
+    }
+    .answer-question {
+        display: flex;
+        justify-content: center;
+    }
+    .btn--yes {
+        position: absolute;
+        width: var(--width-btn);
+        left: 15px;
+        top: 200px
+    }
+    .btn--no {
+        width: var(--width-btn);
+        position: absolute;
+        top: 300px;
+        left: 15px;
+    }
+    .message-modal {
+        width: 300px;
+    }
+    .heading-name {
+        padding: 0 12px;
+    }
+    .heading-msg {
+        padding: 20px 20px;
+    }
+    .footer-modal {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        height: 6rem;
+        padding: 0;
+    }
+}
